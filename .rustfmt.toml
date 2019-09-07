@@ -1,0 +1,20 @@
+# Use the default 'rustfmt' style, which conforms to the [Rust style guide][1]
+# that has been formalized through the [style RFC process][2].
+#
+# [1]: https://github.com/rust-dev-tools/fmt-rfcs/blob/master/guide/guide.md
+# [2]: https://github.com/rust-dev-tools/fmt-rfcs
+#
+# Exceptions:
+#
+# - Use 2 spaces per indent level, and a line width of 80 characters.
+#   This matches the choices already present in other environments, such as
+#   Prettier.js (a very good, opinionated formatter for JavaScript, JSON, HTML,
+#   etc.), the Linux style (80 chars), or the Google style guide (2 spaces).
+#
+# Run command:
+#
+#   $ cargo fmt
+
+edition = "2018"
+max_width = 80
+tab_spaces = 2
